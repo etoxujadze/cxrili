@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: auto;
+    font-family: "ponti";
+}
+@font-face {
+    font-family: "ponti";
+    src: url("Inter-VariableFont_slnt\,wght.ttf");
+}
+
+.container {
+    width: 1040px;
+    margin: auto;
+    
+}
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+tr {
+    height:57px ;
+  
+}
+th {
+    border: 1px solid #DADADA;
+    background-color: #f9f9f9;
+}
+td {
+    border: 1px solid #DADADA;
+}
+button {
+    width: 115px;
+    height: 36px;
+    background-color: #FFD43A;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+}
+.id {
+    width: 72px;
+    height: 57px;
+}
+.title {
+    width: 444px;
+    height: 57px;
+    padding-left: 23px;
+    text-align: start;
+}
+.text {
+    font-size: 15px;
+    padding-left: 23px;
+    text-align: start;
+    
+    
+}
+.created {
+    width: 276px;
+    height: 57px;
+}
+.action {
+    width: 251px;
+    height: 57px;
+}
+.name {
+    color: #FF0000;
+}
+
